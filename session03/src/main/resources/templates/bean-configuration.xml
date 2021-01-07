@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    !-- Một định nghĩa bean đơn giản -->
+    <bean id = "..." class = "...">
+        <!-- Cấu hình bean tại đây -->
+    </bean>
+
+    <!-- Một định nghĩa bean với chế độ lazy-init -->
+    <bean id = "..." class = "..." lazy-init = "true">
+        <!-- Cấu hình bean tại đây -->
+    </bean>
+
+    <!-- Một định nghĩa bean với phương thức khởi tạo -->
+    <bean id = "..." class = "..." init-method = "...">
+        <!-- Cấu hình bean tại đây -->
+    </bean>
+
+    <!-- Một định nghĩa bean với phương thức hủy -->
+    <bean id = "..." class = "..." destroy-method = "...">
+        <!-- Cấu hình bean tại đây -->
+    </bean>
+</beans>
